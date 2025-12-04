@@ -68,7 +68,7 @@ header h1 {
 }
 
 /* 4. TITRE PRINCIPAL (MON TABLEAU DE BORD) */
-body > h1 {
+.page-title {
     padding: 30px 20px;
     font-size: 32px;
     color: #0b66c3;
