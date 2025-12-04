@@ -29,3 +29,19 @@
     height: 40px;
     width: auto;
 }
+
+/* ---------- ICÔNES : taille cohérente et nette ---------- */
+.btn-icon,
+.data-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-icon img, .data-icon, .icon-small {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
