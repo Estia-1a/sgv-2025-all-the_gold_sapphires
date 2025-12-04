@@ -41,7 +41,10 @@
     <h1>
         MON TABLEAU DE BORD
     </h1>
-    <div class="conseil-container">
+
+    <!-- rectangle 1 : texte tabbord -->
+
+     <section class="conseil-container">
         <p>Bonjour Antoine,</p>
         <p>La météo est fraîche aujourd'hui sur la côte basque, autour de 8°C, avec un peu d'humidité.<br>
         Pense à bien te couvrir, surtout si tu prévois une activité en extérieur.</p>
@@ -60,9 +63,62 @@
 
         <p>N'oublie pas : petits pas réguliers → gros progrès sur le long terme.<br>
         Je reste là pour t'aider à suivre ta progression et ajuster tes recommandations selon ton rythme.</p>
+    </section>
+
+ <!-- rectangle 2 : barres de progression -->
+ <main class="dashboard">
+        <div class="left-column">
+            <section class="graphs">
+                <h2>Graphes de santé</h2>
+                <img src="images/stress.png" alt="Graphique stress" class="graph-img">
+                <img src="images/alimentation.png" alt="Graphique alimentation" class="graph-img">
+                <img src="images/poids.png" alt="Graphique poids" class="graph-img">
+            </section>
+
+
+
+<!-- rectangle 3 : graphiques santé -->
+<section class="progress">
+    <h2>Objectifs</h2>
+
+    <div class="goal">
+        <div class="goal-title">Marche quotidienne — 70%</div>
+        <div class="progress-bar">
+            <div class="progress-fill" data-percent="70"></div>
+        </div>
     </div>
 
+    <div class="goal">
+        <div class="goal-title">Hydratation — 50%</div>
+        <div class="progress-bar">
+            <div class="progress-fill" data-percent="50"></div>
+        </div>
+    </div>
 
-    
+    <div class="goal">
+        <div class="goal-title">Objectif sommeil — 85%</div>
+        <div class="progress-bar">
+            <div class="progress-fill" data-percent="85"></div>
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- rectangle 4 : activités -->
+<aside class="right-column">
+    <section class="activities">
+        <h2>Dernières activités</h2>
+        <div class="activity-card">Marche rapide — 35 minutes</div>
+        <div class="activity-card">Yoga — 20 minutes</div>
+    </section>
+</aside>
+</main>
+
+</body>
+</html>
+
+</main>
+
+  
 </body>
 </html>
