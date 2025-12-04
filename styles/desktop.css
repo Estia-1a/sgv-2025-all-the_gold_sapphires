@@ -34,3 +34,34 @@ header h1 {
     flex: 1;
     text-align: center;
 }
+/*3. BARRE D'EN-TÊTE AVEC BOUTONS*/
+.header-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-text {
+    background: transparent;
+    border: none;
+    color: #0b66c3;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn-text:hover {
+    background-color: rgba(11, 102, 195, 0.1);
+    transform: translateY(-2px);
+}
+
+.btn-text:active {
+    transform: translateY(0);
+}
