@@ -1,0 +1,36 @@
+/*1. RESET ET STYLES GLOBAUx*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+
+/* 2. HEADER (LOGO + TITRE)*/
+
+header {
+    background-color: #0b66c3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 28px;
+    flex: 1;
+    text-align: center;
+}
