@@ -10,7 +10,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f7fa;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.6; 
+}
 
 /* 2. HEADER (LOGO + TITRE)*/
 
@@ -100,4 +101,26 @@ body > h1 {
 .conseil-container li {
     margin-bottom: 8px;
     font-size: 14px;
+}
+
+/* 6. LAYOUT PRINCIPAL (DASHBOARD) */
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
