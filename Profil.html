@@ -34,78 +34,91 @@
             </li>
         </ul>
     </nav>
-    <!-- Section Mes données -->
-    <section id="mes-donnees" class="profil-section">
-        <h2>Mes données</h2>
+    
+    <div class="profil-container">
 
-        <div class="data-item">
-            <span class="data-label">Nom :</span>
-            <div class="data-value-box">Guttierez Ugo</div>
-            <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
-        </div>
-
-        <div class="data-item">
-            <span class="data-label">Âge :</span>
-            <div class="data-value-box">21</div>
-            <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
+        <!-- MES DONNÉES -->
+        <div class="bloc-donnees">
+            <section id="mes-donnees" class="profil-section">
+                <h2>Mes données</h2>
+    
+                <div class="data-item">
+                    <span class="data-label">Nom :</span>
+                    <div class="data-value-box">Guttierez Ugo</div>
+                    <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
+                </div>
+    
+                <div class="data-item">
+                    <span class="data-label">Âge :</span>
+                    <div class="data-value-box">21</div>
+                    <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
+                </div>
+    
+                <div class="data-item">
+                    <span class="data-label">Poids :</span>
+                    <div class="data-value-box">66 kg</div>
+                    <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
+                </div>
+    
+                <div class="data-item">
+                    <span class="data-label">Taille :</span>
+                    <div class="data-value-box">165 cm</div>
+                    <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
+                </div>
+            </section>
         </div>
     
-        <div class="data-item">
-            <span class="data-label">Poids :</span>
-            <div class="data-value-box">66 kg</div>
-            <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
+    
+        <!--MES OBJECTIFS-->
+        <div class="bloc-objectifs">
+            <section id="mes-objectifs" class="profil-section">
+                <h2>Mes objectifs</h2>
+    
+                <!-- OBJECTIF 1 -->
+                <div class="objectif-card">
+                    <img src="media/pictures/obj1.webp" alt="Image objectif" class="objectif-img">
+    
+                    <div class="objectif-info">
+                        <h3 class="objectif-title">Titre de l’objectif 1</h3>
+                        <p class="objectif-desc">Petite description de l’objectif 1.</p>
+                    </div>
+    
+                    <div class="objectif-actions">
+                        <a href="#" class="btn-icon">
+                            <img src="media/pictures/pencil.svg" alt="Modifier">
+                        </a>
+                        <a href="#" class="btn-icon">
+                            <img src="media/pictures/trash.png" alt="Supprimer">
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- OBJECTIF 2 -->
+                <div class="objectif-card">
+                    <img src="media/pictures/obj2.png" alt="Image objectif" class="objectif-img">
+    
+                    <div class="objectif-info">
+                        <h3 class="objectif-title">Titre de l’objectif 2</h3>
+                        <p class="objectif-desc">Petite description de l’objectif 2.</p>
+                    </div>
+    
+                    <div class="objectif-actions">
+                        <a href="#" class="btn-icon">
+                            <img src="media/pictures/pencil.svg" alt="Modifier">
+                        </a>
+                        <a href="#" class="btn-icon">
+                            <img src="media/pictures/trash.png" alt="Supprimer">
+                        </a>
+                    </div>
+                </div>
+    
+                <button id="ajouter-objectif">Nouvel objectif</button>
+            </section>
         </div>
     
-        <div class="data-item">
-            <span class="data-label">Taille :</span>
-            <div class="data-value-box">165 cm</div>
-            <img src="media/pictures/pencil.svg" alt="Modifier" class="data-icon">
-        </div>
-    </section>
-
-    <!-- Section Mes objectifs -->
-    <section id="mes-objectifs" class="profil-section">
-        <h2>Mes objectifs</h2>
-
-        <!-- Objectif 1 -->
-    <div class="objectif-card">
-        <img src="media/pictures/obj1.webp" alt="Image objectif" class="objectif-img">
-
-        <div class="objectif-info">
-            <h3 class="objectif-title">Titre de l’objectif 1</h3>
-            <p class="objectif-desc">Petite description de l’objectif 1.</p>
-        </div>
-
-        <div class="objectif-actions">
-            <a href="#" class="btn-icon">
-                <img src="media/pictures/pencil.svg" alt="Modifier">
-            </a>
-            <a href="#" class="btn-icon">
-                <img src="media/pictures/trash.png" alt="Supprimer">
-            </a>
-        </div>
     </div>
 
-    <!-- Objectif 2 -->
-    <div class="objectif-card">
-        <img src="media/pictures/obj2.png" alt="Image objectif" class="objectif-img">
-
-        <div class="objectif-info">
-            <h3 class="objectif-title">Titre de l’objectif 2</h3>
-            <p class="objectif-desc">Petite description de l’objectif 2.</p>
-        </div>
-
-        <div class="objectif-actions">
-            <a href="#" class="btn-icon">
-                <img src="media/pictures/pencil.svg" alt="Modifier">
-            </a>
-            <a href="#" class="btn-icon">
-                <img src="media/pictures/trash.png" alt="Supprimer">
-            </a>
-        </div>
-    </div>
-        <button id="ajouter-objectif">Nouvel objectif</button>
-    </section>
+</div>
     
 </body>
 </html>

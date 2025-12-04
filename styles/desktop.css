@@ -30,9 +30,9 @@
     width: auto;
 }
 
-/* ---------- ICÔNES : taille cohérente et nette ---------- */
-.btn-icon,
-.data-icon {
+.icon,
+.btn-icon img,
+.data-icon{
     width: 18px;
     height: 18px;
     object-fit: contain;
@@ -40,8 +40,26 @@
     vertical-align: middle;
 }
 
-.btn-icon img, .data-icon, .icon-small {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+/* ----- STRUCTURE EN DEUX COLONNES ----- */
+.profil-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* ----- CASE À GAUCHE : MES DONNÉES ----- */
+.bloc-donnees {
+    width: 50%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* ----- CASE À DROITE : MES OBJECTIFS ----- */
+.bloc-objectifs {
+    width: 50%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 6px;
 }
