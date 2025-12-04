@@ -63,3 +63,23 @@
     padding: 20px;
     border-radius: 6px;
 }
+
+/* Taille réduite des images d’objectifs */
+.objectif-img {
+    width: 120px;      /* Ajuste si tu veux plus petit/grand */
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.objectif-card {
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.objectif-info {
+    margin-bottom: 10px;
+}
