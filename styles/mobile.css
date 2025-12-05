@@ -65,6 +65,17 @@
     font-size: 13px;
     padding: 10px;
   }
+
+  /* BOUTONS : plus larges et adaptés au tactile */
+  .btn-text {
+    width: 100%;
+    font-size: 16px;
+    padding: 14px 0;
+    border-radius: 8px;
+  }
+
+  
+  }
 }
 
 
