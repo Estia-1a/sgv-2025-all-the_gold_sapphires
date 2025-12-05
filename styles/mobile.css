@@ -1,1 +1,20 @@
-test css
+/* =====================
+   CSS MOBILE (max 600px)
+   ===================== */
+@media (max-width: 600px) {
+  /* NAVBAR : vertical, centrée */
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .nav-logo {
+    height: 32px;
+    margin-bottom: 8px;
+  }
+  .nav-link {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+
