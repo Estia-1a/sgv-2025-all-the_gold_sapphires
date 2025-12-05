@@ -124,7 +124,13 @@
     max-width: 60px;
     height: auto;
     margin-bottom: 8px;
-
 }
+ /* ANIMATIONS : plus rapides sur mobile */
+  .conseil-container,
+  .graphs,
+  .progress,
+  .activities,
+  .activity-card {
+    animation-duration: 0.4s !important;
 
 
