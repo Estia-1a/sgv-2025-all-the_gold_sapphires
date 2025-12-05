@@ -85,6 +85,21 @@
     padding: 10px 8px;
     margin-bottom: 12px;
     border-radius: 8px;
+  }
+  /* BARRES DE PROGRESSION : plus hautes et espacées */
+  .progress-bar {
+    height: 18px;
+    border-radius: 10px;
+  }
+  .progress-fill {
+    border-radius: 10px;
+  }
+  .goal {
+    margin-bottom: 16px;
+  }
+  .goal-title {
+    font-size: 15px;
+  }
 }
 
 
