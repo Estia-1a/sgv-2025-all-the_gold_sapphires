@@ -99,7 +99,17 @@
   }
   .goal-title {
     font-size: 15px;
+  } 
+  /* LISTES ET CONSEILS : texte plus petit, marges réduites */
+  .conseil-container p,
+  .conseil-container li {
+    font-size: 13px;
+    margin-bottom: 6px;
   }
+  .conseil-container ul {
+    margin-left: 12px;
+    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 
