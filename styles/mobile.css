@@ -53,5 +53,12 @@
     gap: 8px;
     padding: 12px;
   }
+   /* Conseils, activités, progression : padding réduit */
+  .conseil-container,
+  .activities,
+  .progress {
+    padding: 10px;
+    margin: 0 4px 12px 4px;
+  }
 
 
