@@ -474,3 +474,38 @@ header h1 {
 .data-icon:hover {
     opacity: 1;
 }
+
+.objectif-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 18px;
+    border: 1px solid #e1e5eb;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    animation: slideInLeft 0.5s ease-out;
+    margin-bottom: 20px;
+}
+
+.objectif-title {
+    color: #0b66c3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.objectif-desc {
+    font-size: 14px;
+    color: #555;
+    margin: 6px 0 12px 0;
+}
+
+.objectif-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.objectif-img {
+    width: 160px;  /* meilleure taille */
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
