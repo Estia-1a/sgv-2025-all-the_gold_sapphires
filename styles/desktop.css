@@ -442,3 +442,35 @@ header h1 {
     margin-bottom: 20px;
 }
 
+/* Élément de donnée */
+.data-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 10px;
+}
+
+.data-label {
+    font-weight: 600;
+    width: 120px;
+    color: #0b66c3;
+}
+
+.data-value-box {
+    background-color: #f0f4fa;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid #d0d7e2;
+    flex: 1;
+}
+
+.data-icon {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.data-icon:hover {
+    opacity: 1;
+}
