@@ -110,6 +110,16 @@
     margin-left: 12px;
     margin-top: 4px;
     margin-bottom: 8px;
+  }
+  /* ICONES ET IMAGES DANS LES BOUTONS ET DONNÉES */
+  .icon,
+  .btn-icon img,
+  .data-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+
 }
 
 
