@@ -78,6 +78,13 @@
     width: 80px;
     margin-top: 6px;
   }
+  /* CARTES OBJECTIFS ET ACTIVITÉS : largeur 100%, padding réduit */
+  .objectif-card,
+  .activity-card {
+    width: 100%;
+    padding: 10px 8px;
+    margin-bottom: 12px;
+    border-radius: 8px;
 }
 
 
