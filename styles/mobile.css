@@ -32,6 +32,15 @@
     padding: 10px;
     margin: 0;
   }
+   /* GRAPHIQUES : 1 colonne */
+  .graphs {
+    grid-template-columns: 1fr !important;
+    padding: 10px;
+  }
+  .graph-img {
+    height: 120px;
+  }
+
 
 
 
