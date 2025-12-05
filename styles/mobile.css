@@ -119,6 +119,11 @@
     height: 16px;
     margin-right: 4px;
   }
+   /* Images dans les données */
+  .bloc-donnees img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 8px;
 
 }
 
