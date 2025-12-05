@@ -509,3 +509,24 @@ header h1 {
     border-radius: 6px;
     border: 1px solid #ccc;
 }
+
+#ajouter-objectif {
+    background-color: #0b66c3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+#ajouter-objectif:hover {
+    background-color: #084f96;
+    transform: translateY(-2px);
+}
+
+#ajouter-objectif:active {
+    transform: translateY(0);
+}
